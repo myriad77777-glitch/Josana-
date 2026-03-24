@@ -267,3 +267,98 @@ window.addEventListener('scroll',()=>{
        style="width:90%; max-width:900px; border-radius:15px; box-shadow:0 10px 30px rgba(0,0,0,0.2);">
 </section>
 <img src="images/students.jpg">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Josana Day School</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+nav {
+  background: #0a2a66;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* HERO SECTION */
+.hero {
+  background: url('images/students.jpg') center/cover no-repeat;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  background: rgba(0,0,0,0.5);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 20px;
+}
+
+/* IMAGE STYLE */
+.section img {
+  width: 90%;
+  max-width: 900px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* FOOTER */
+footer {
+  background: #0a2a66;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+</style>
+
+</head>
+<body>
+
+<nav>
+  Josana Day School
+</nav>
+
+<div class="hero">
+  <h1>Welcome to Josana Day School</h1>
+</div>
+
+<div class="section">
+  <h2>Our Students</h2>
+  <img src="images/students.jpg" alt="Students">
+  <p>We nurture excellence, discipline, and creativity in every student.</p>
+</div>
+
+<div class="section">
+  <h2>About Us</h2>
+  <p>Josana Day School is committed to providing quality education in a supportive environment.</p>
+</div>
+
+<footer>
+  © 2026 Josana Day School
+</footer>
+
+</body>
+</html>
