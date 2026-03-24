@@ -266,3 +266,4 @@ window.addEventListener('scroll',()=>{
   <img src="images/students.jpg" alt="Josana Students" 
        style="width:90%; max-width:900px; border-radius:15px; box-shadow:0 10px 30px rgba(0,0,0,0.2);">
 </section>
+<img src="images/students.jpg">
